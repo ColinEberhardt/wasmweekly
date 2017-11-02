@@ -1,0 +1,261 @@
+/* COMMON ELEMENTS */
+
+body {
+   background-color: #ffffff;
+   padding-bottom: 1rem;
+   padding-top: 1rem;
+   font-size: 150%;
+}
+
+body p {
+   line-height: 2.5rem;
+   padding: 0.5rem 0rem 0.5rem 0rem;
+}
+
+hr {
+   border-color: #d7d7d7;
+   width: 50%;
+}
+
+.center {
+   float: none;
+   margin-left: auto;
+   margin-right: auto;
+   display: block;
+   text-align: center;
+}
+
+nav {
+  margin-top: 1rem;
+}
+
+/* LINKS */
+
+a {
+   color: #6556ec;
+}
+
+h3 > a {
+  text-decoration: none;
+}
+
+a:visited {
+   color: #6556ec;
+   border-width: 0px;
+   text-decoration: none;
+}
+
+a:hover,
+.tagline a:hover,
+.lead a:hover {
+   text-decoration: underline;
+}
+
+a:active {
+   text-decoration: none;
+}
+
+h1 > a:link,
+.sponsor a:link,
+a.btn {
+   border-width: 0px;
+}
+
+h3 + p {
+  margin-bottom: 0;
+}
+
+small {
+  text-transform: uppercase;
+  color: #999;
+}
+
+/* HEADER */
+
+header {
+   text-align: center;
+}
+
+header h1 {
+   font-size: 50px;
+   font-weight: normal;
+}
+
+header h2 {
+   font-size: 15px;
+   line-height: 22px;
+}
+
+.tagline a,
+.lead a,
+.author-name a {
+   color: #444444;
+   border-bottom: 1px dotted #444444;
+}
+
+.tagline, .lead {
+   color: #666666;
+}
+
+/* SPONSOR */
+
+.sponsor p {
+   padding: 0rem;
+}
+
+.sponsor {
+   margin-top: 3rem;
+   margin-bottom: 3rem;
+}
+
+/* POST LIST */
+
+.post {
+   padding-top: 2rem;
+   padding-bottom: 2rem;
+}
+
+.post-title {
+   font-size: 40px;
+   font-weight: lighter;
+}
+
+.post-subtitle {
+   font-size: 30px;
+   font-weight: bolder;
+   margin: 0rem 0rem 1.5rem 0rem;
+}
+
+.post-date {
+   font-weight: normal;
+   color: #666666;
+   display: inline-block;
+}
+
+.lead {
+   padding: 0rem;
+   margin-bottom: 2rem;
+}
+
+/* PAGES */
+
+.sharing a,
+.sharing a:visited,
+.sharing a:link {
+   color: #666666;
+}
+
+.sharing ul li a:hover {
+   color: #f05138;
+   text-decoration: none;
+}
+
+blockquote {
+   color: #666;
+   font-size: 16px;
+   margin-left: 22px;
+}
+
+/* SUBSCRIBE */
+
+.pager {
+   margin-top: 1rem;
+   margin-bottom: 0.5rem;
+}
+
+.subscribe a,
+.subscribe a:visited {
+   color: #666666;
+}
+
+.subscribe ul li a:hover {
+   color: #444444;
+   text-decoration: none;
+}
+
+.subscribe ul {
+   -webkit-padding-start: 0px !important;
+   -webkit-margin-before: 0px !important;
+   -webkit-margin-after: 0px !important;
+}
+
+.subscribe ul li {
+   display: inline-block;
+   padding: 0.25rem;
+}
+
+/* AUTHORS */
+
+.posts-list {
+   padding: 0px;
+   margin: 0px;
+   -webkit-padding-start: 4px;
+}
+
+.posts-list li {
+  min-width: 70px;
+  display: inline-block;
+}
+
+.post-count {
+   display: inline-block;
+}
+
+/* BOTTOM ICONS */
+
+footer a, footer a:visited,
+.social a, .social a:visited {
+  color: #444444;
+}
+
+.social ul li a {
+  border-width: 0px;
+}
+
+.social ul li a:hover {
+   color: #666666;
+   text-decoration: none;
+}
+
+.social ul {
+   -webkit-padding-start: 0px !important;
+   -webkit-margin-before: 0px !important;
+   -webkit-margin-after: 0px !important;
+
+   -moz-padding-start: 0px !important;
+}
+
+.social ul li {
+   display: inline-block;
+   padding: 0.25rem 0.25rem 0.25rem 0.25rem;
+}
+
+.social ul li {
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+}
+
+/* iphone 6 plus */
+@media (max-width: 414px) {
+   header h1 {
+      font-size: 46px;
+   }
+}
+
+/* iphone 6 */
+@media (max-width: 375px) {
+   header h1 {
+      font-size: 42px;
+   }
+}
+
+/* iphone 5 */
+@media (max-width: 320px) {
+   header h1 {
+      font-size: 36px;
+   }
+
+   header h2 {
+      font-size: 13px;
+   }
+}
