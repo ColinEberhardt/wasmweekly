@@ -4,7 +4,7 @@
       <ul class="pagination">
          {% if page.previous.url %}
          <li>
-            <a href="{{ page.previous.url }}" title="Previous issue"><i class="fa fa-chevron-left" aria-hidden="true"></i> Prev</a>
+            <a href="{{ site.baseurl }}/{{ page.previous.url }}" title="Previous issue"><i class="fa fa-chevron-left" aria-hidden="true"></i> Prev</a>
          </li>
          {% endif %}
          <li>
@@ -18,7 +18,7 @@
          </li>
          {% if page.next.url %}
          <li>
-            <a href="{{ page.next.url }}" title="Next issue">Next <i class="fa fa-chevron-right" aria-hidden="true"></i></a>
+            <a href="{{ site.baseurl }}/{{ page.next.url }}" title="Next issue">Next <i class="fa fa-chevron-right" aria-hidden="true"></i></a>
          </li>
          {% endif %}
       </ul>
