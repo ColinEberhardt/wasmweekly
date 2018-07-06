@@ -14,7 +14,7 @@ permalink: /:title/
 # Site
 title: 'WebAssembly Weekly'
 description: 'A community-driven weekly newsletter about WebAssembly'
-baseurl: http://wasmweekly.news
+baseurl: https://wasmweekly.news
 logo: /img/logo.png
 
 twitter:
