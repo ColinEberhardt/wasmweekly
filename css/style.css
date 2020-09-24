@@ -115,6 +115,11 @@ header h2 {
    padding-bottom: 2rem;
 }
 
+.post-content img {
+   width: 100%;
+   margin-bottom: 4em;
+}
+
 .post-title {
    font-size: 40px;
    font-weight: lighter;
