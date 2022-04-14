@@ -1,6 +1,7 @@
 # Dependencies
 markdown: kramdown
 highlighter: rouge
+future: true
 
 plugins:
     - jekyll-sitemap
