@@ -14,7 +14,7 @@
     <!-- Twitter Cards -->
     <meta name="twitter:card" content="summary" />
     <meta name="twitter:site" content="@{{ site.twitter.username }}" />
-    <meta name="twitter:image" content="{{ site.url }}{{ site.logo }}" />
+    <meta name="twitter:image" content="{{ site.url }}{% if page.image %}{{ page.image }}{% else %}{{ site.logo }}{% endif %}" />
     <meta name="twitter:image:alt" content="{{ site.title }} logo" />
     {% if page.title == "Home" %}
     <meta name="twitter:title" content="{{ site.title }}" />
